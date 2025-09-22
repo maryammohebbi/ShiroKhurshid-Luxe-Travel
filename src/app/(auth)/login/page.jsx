@@ -24,7 +24,7 @@ function Login() {
         className="mb-2"
       />
       <div className="mb-7">
-        <h3 className="text-sm font-bold text-white px-5">Login</h3>
+        <h3 className="text-sm font-bold text-graySecTwo px-5">Login</h3>
       </div>
       <form className="px-5 mb-1">
         <TextField title="Email" />
@@ -32,7 +32,9 @@ function Login() {
         <FormButton title="Send" />
       </form>
       <Link href={'#'}>
-        <p className="text-white text-right p-5 text-sm">Forgot Password</p>
+        <p className="text-graySecTwo text-right p-5 text-sm">
+          Forgot Password
+        </p>
       </Link>
       <SNS />
     </div>

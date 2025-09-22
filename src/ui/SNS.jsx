@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 function SNS() {
   return (
-    <div className="w-[60%] flex justify-between text-white text-xl mx-auto mt-auto p-3">
+    <div className="w-[60%] flex justify-between text-graySecTwo text-xl mx-auto mt-auto p-3">
       <Link href={'#'}>
         <ImFacebook2 />
       </Link>

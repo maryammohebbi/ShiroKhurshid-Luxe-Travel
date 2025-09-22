@@ -12,6 +12,9 @@
   --font-sans: var(--font-inter);
   --color-primary: #001b2d;
   --color-secondary: #bb9039;
+  --color-grayPrimary: #8e8d8d;
+  --color-graySecondary: #d9d9d9;
+  --color-graySecTwo: #f4f2f2;
 }
 
 @media (prefers-color-scheme: dark) {
