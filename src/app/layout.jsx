@@ -1,19 +1,27 @@
-// import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Inter } from 'next/font/google'
+import './globals.css'
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-inter',
+})
 
 export const metadata = {
-  title: "Shir o Khurshid",
-  description: "Luxury Tourism",
-};
+  title: 'Shir o Khurshid Luxe Travel',
+  description: 'Luxe Travel',
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-[#001B2D] min-h-screen flex justify-center items-center">
-        <div className="max-w-sm w-full h-screen bg-[#001B2D] flex flex-col">
+      <body
+        className={`${inter.variable} font-sans bg-primary min-h-screen flex justify-center items-center`}
+      >
+        <div className="max-w-sm w-full h-screen bg-primary flex flex-col">
           {children}
         </div>
       </body>
     </html>
-  );
+  )
 }

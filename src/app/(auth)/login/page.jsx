@@ -11,8 +11,8 @@ function Login() {
   return (
     <div className="flex flex-col flex-grow">
       <div className="flex justify-between items-center h-[58px] p-5 font-bold">
-        <span className="text-[#BB9039]">Shir O Khurshid</span>
-        <button className="text-[#BB9039] flex items-center justify-center cursor-pointer">
+        <span className="text-secondary">Shir O Khurshid</span>
+        <button className="text-secondary flex items-center justify-center cursor-pointer">
           <RxHamburgerMenu className="w-6 h-6" />
         </button>
       </div>
@@ -20,6 +20,7 @@ function Login() {
         src={'/dushanbe_cropped.png'}
         width={'393'}
         height={'311'}
+        alt="dushanbe"
         className="mb-2"
       />
       <div className="mb-7">
