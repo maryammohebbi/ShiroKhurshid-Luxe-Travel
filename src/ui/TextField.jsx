@@ -11,7 +11,7 @@ function TextField({ title, type = 'text' }) {
       </label>
       <input
         type={type}
-        className="w-full bg-graySecondary p-4 rounded-[5px] text-sm"
+        className="w-full bg-graySecondary p-2 rounded-[5px] text-lg"
       />
     </div>
   )
