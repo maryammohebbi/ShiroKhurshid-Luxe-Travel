@@ -5,7 +5,7 @@ function TextField({ title, type = 'text' }) {
     <div className="relative mb-6">
       <label
         htmlFor=""
-        className="text-white text-xs bg-[#001B2D] p-1 rounded-xl absolute -top-3 left-5"
+        className="text-white text-xs bg-primary p-1 rounded-xl absolute -top-3 left-5"
       >
         {title}
       </label>
